@@ -378,7 +378,6 @@ def resume_upload_section():
                 word_count = get_word_count(resume_text)
                 reading_time = estimate_reading_time(resume_text)
                 
-                            
                 with col1:
                     st.metric("📝 Word Count", word_count)
                 with col2:
